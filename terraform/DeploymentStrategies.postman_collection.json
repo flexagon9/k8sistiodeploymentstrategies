@@ -63,7 +63,7 @@
 		{
 			"id": "5df324b9-124e-4c1d-9573-c30ee429aff9",
 			"key": "ingress_ip",
-			"value": "${{INGRESS_IP}}",
+			"value": "INGRESS_IP",
 			"type": "string"
 		}
 	],
