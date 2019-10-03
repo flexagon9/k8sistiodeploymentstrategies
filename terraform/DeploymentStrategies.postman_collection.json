@@ -7,8 +7,28 @@
 	"item": [
 		{
 			"name": "DeploymentStrategies",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
 			"request": {
-				"method": "POST",
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
 				"header": [
 					{
 						"key": "Host",
@@ -18,16 +38,13 @@
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "http://localhost:8080/version"
+					"raw": ""
 				},
 				"url": {
-					"raw": "http://35.238.193.213/version",
+					"raw": "http://{{ingress_ip}}/version",
 					"protocol": "http",
 					"host": [
-						"35",
-						"238",
-						"193",
-						"213"
+						"{{ingress_ip}}"
 					],
 					"path": [
 						"version"
@@ -61,7 +78,7 @@
 	],
 	"variable": [
 		{
-			"id": "5df324b9-124e-4c1d-9573-c30ee429aff9",
+			"id": "d0cc58c2-9720-4630-8332-76f19eb2704e",
 			"key": "ingress_ip",
 			"value": "INGRESS_IP",
 			"type": "string"
