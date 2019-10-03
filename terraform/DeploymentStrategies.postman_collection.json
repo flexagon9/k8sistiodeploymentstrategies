@@ -1,0 +1,71 @@
+{
+	"info": {
+		"_postman_id": "20021154-ce28-46c0-8d72-34771bb3c02b",
+		"name": "DeploymentStrategies",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "DeploymentStrategies",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "http://localhost:8080/version"
+				},
+				"url": {
+					"raw": "http://35.238.193.213/version",
+					"protocol": "http",
+					"host": [
+						"35",
+						"238",
+						"193",
+						"213"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "07db8698-07a8-456e-bef2-4c4762e5cac5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f80cb59c-785e-4e68-8552-b16afe482de0",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "5df324b9-124e-4c1d-9573-c30ee429aff9",
+			"key": "ingress_ip",
+			"value": "${{INGRESS_IP}}",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
