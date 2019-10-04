@@ -52,6 +52,438 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "DeploymentStrategies2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies6",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies7",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies8",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies9",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeploymentStrategies10",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "5154446d-1ad7-4d3a-a8b5-99ff3721b974",
+						"exec": [
+							"pm.test(\"Is Blue\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"healthy\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Host",
+						"value": "superapp.default.svc.cluster.local",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://{{ingress_ip}}/version",
+					"protocol": "http",
+					"host": [
+						"{{ingress_ip}}"
+					],
+					"path": [
+						"version"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"event": [
@@ -78,7 +510,7 @@
 	],
 	"variable": [
 		{
-			"id": "d0cc58c2-9720-4630-8332-76f19eb2704e",
+			"id": "7ae53d03-5840-41ea-9d88-e77cd5c5fcf7",
 			"key": "ingress_ip",
 			"value": "INGRESS_IP",
 			"type": "string"
