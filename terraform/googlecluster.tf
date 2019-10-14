@@ -1,5 +1,5 @@
 provider "google-beta" {
-  credentials = "credentials.json"
+  credentials = "/home/oracle/joel/credentials.json"
   project     = "mindful-silo-241313"
   region      = "us-central1"
 }
