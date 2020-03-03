@@ -6,7 +6,7 @@ provider "google-beta" {
 
 resource "google_container_cluster" "primary" {
   provider = "google-beta"
-  name               = "marcellus-wallace"
+  name               = "demo-cluster"
   location           = "us-central1-a"
   initial_node_count = 1
 
